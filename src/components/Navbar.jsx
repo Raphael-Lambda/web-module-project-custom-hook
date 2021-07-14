@@ -38,6 +38,7 @@ const Navbar = ({localDark, setLocalDark}) => {
         <Menu>
           <Button type="button" onClick={() => {history.push('/Home')}} >Home</Button> 
           <Button type="button" onClick={() => {history.push('/isItDark')}} >Is it Dark?</Button>
+          <Button type="button" onClick={() => {history.push('/Prices')}} >Prices</Button>
         </Menu>
       </MenuButton>
       <h1>Crypto Tracker</h1>
